@@ -25,7 +25,7 @@ File -> Import -> General -> Existing Project in workspace -> Select root direct
 
 ### 2.创建 .c/.h 文件：  
 右键要创建文件的文件夹，在 New 目录下点击 File for Template，随后在 File name 栏输入文件名称（不要忘记加 .c/.h），点击Finish，即自动创建成功。创建成功后的 .c 文件包含文件创建信息，.h 文件包含文件创建信息以及头文件定义。  
-如果创建文件的文件夹不是 Core 下的 Inc / Src，还需要对文件的编译进行包含：右键项目工程 -> 点击 Properties -> 展开窗口下的 C/C++ General -> 点击 Paths and Symbols。在 Includes 栏目下依次点击 Add -> Workspace，找到你要加入编译的 Inc（.h） 头文件夹，一路OK；在 Source location 栏目下点击 Add Folder，找到你要加入编译的 Source（.c） 函数时间文件夹，OK。随后点击 Apply and Close，即可成功通过编译。
+如果创建文件的文件夹不是 Core 下的 Inc / Src，还需要对文件的编译进行包含：右键项目工程 -> 点击 Properties -> 展开窗口下的 C/C++ General -> 点击 Paths and Symbols。在 Includes 栏目下依次点击 Add -> Workspace，找到你要加入编译的 Inc（.h） 头文件夹，一路OK；在 Source location 栏目下点击 Add Folder，找到你要加入编译的 Source（.c） 函数实现文件夹，OK。随后点击 Apply and Close，即可成功通过编译。
 
 <br>
 <br>
