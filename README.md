@@ -4,7 +4,7 @@
 ### 1.导入 STM32 项目（即文件中包含.cproject与.project）：  
 下载 STM32 Cube IDE 后，设置 workspace 文件夹（最好设置在熟悉的路径），将该项目复制或者移动到 workspace 文件夹下，随后打开 STM32 Cube IDE，依次点击  
 File -> Import -> General -> Existing Project in workspace -> Select root directory[Browse]  
-选择你的 workspace 文件夹，选择需要导入的项目，点击 Finish，即导入成功；随后关闭向导界面，即可看到左侧项目栏中的工程，打开 Core 文件夹，可对 Inc 中的头文件或 Src 中的函数实现文件进行编辑。  
+选择你的 workspace 文件夹，选择需要导入的项目，点击 Finish，即导入成功；随后关闭向导界面，即可看到左侧项目栏中的工程，打开 Core（没有添加其他实现文件夹时） 文件夹，可对 Inc 中的头文件或 Src 中的函数实现文件进行编辑。  
 
 ### 2.导入文件（.c函数实现文件 或 .h头文件）：  
 直接复制或移动到对应的 Src / Inc 文件夹下，即可在 STM32 Cube IDE 进行编辑。  
