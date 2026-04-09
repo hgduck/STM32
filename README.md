@@ -31,6 +31,6 @@ File -> Import -> General -> Existing Project in workspace -> Select root direct
 <br>
 
 ### 附：  
-STM32 Cube IDE 下载地址：https://www.st.com.cn/zh/development-tools/stm32cubeide.html  
-STM32 Cube MX 下载地址：https://www.st.com.cn/zh/development-tools/stm32cubemx.html  
-STM32 Cube IDE 教程视频链接【keysking】：https://www.bilibili.com/video/BV1AsZGYtEA2/?share_source=copy_web&vd_source=b89b5101d7077c3f4c3ddbe273058ec4  
+STM32 Cube IDE 官网下载地址：https://www.st.com.cn/zh/development-tools/stm32cubeide.html  
+STM32 Cube MX 官网下载地址：https://www.st.com.cn/zh/development-tools/stm32cubemx.html  
+STM32 Cube IDE 开发基础教程视频【keysking】（非本人）：https://www.bilibili.com/video/BV1AsZGYtEA2/?share_source=copy_web&vd_source=b89b5101d7077c3f4c3ddbe273058ec4  
