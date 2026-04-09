@@ -19,7 +19,7 @@ File -> Import -> General -> Existing Project in workspace -> Select root direct
 <img width="1026" height="600" alt="third" src="https://github.com/user-attachments/assets/52a40089-db97-4881-a8c9-d6df12d8cfab" />  
 (4) 在 Project Manager 的 Code Generator 栏目下，勾选为每个外设生成单独的 .c / .h 文件，  
 <img width="1026" height="600" alt="forth" src="https://github.com/user-attachments/assets/94f6c1dd-63ca-4888-af7c-785c43d58bdb" />  
-(5) 最后点击 Generate Code 按钮即可，  
+(5) 最后点击 Generate Code 按钮，即可在 workspace 文件夹下创建项目，  
 <img width="654" height="312" alt="fifth" src="https://github.com/user-attachments/assets/481d5642-4a5b-484b-8b16-24ed98cd8268" />  
 (6) 创建项目完成后，点击 Open Project 按钮，或者直接打开 STM32 Cube IDE，按照导入流程对项目进行导入，即可编辑项目。  
 
