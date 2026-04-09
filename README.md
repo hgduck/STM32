@@ -7,7 +7,7 @@ File -> Import -> General -> Existing Project in workspace -> Select root direct
 选择你的 workspace 文件夹，选择需要导入的项目，点击 Finish，即导入成功；随后关闭向导界面，即可看到左侧项目栏中的工程，打开 Core 文件夹，可对 Inc 中的头文件或 Src 中的函数实现文件进行编辑。  
 
 ### 2.导入文件（.c函数实现文件 或 .h头文件）：  
-直接复制或移动到对应的 Src / Inc 文件夹下，即可在 STM32 Cube IDE 进行编辑  
+直接复制或移动到对应的 Src / Inc 文件夹下，即可在 STM32 Cube IDE 进行编辑。  
 
 # STM32 Cube IDE 项目/文件创建流程：  
 ### 1.创建 STM32 项目（2.0.0版本之后）：  
@@ -24,7 +24,8 @@ File -> Import -> General -> Existing Project in workspace -> Select root direct
 (6) 创建项目完成后，点击 Open Project 按钮，或者直接打开 STM32 Cube IDE，按照导入流程对项目进行导入，即可编辑项目。  
 
 ### 2.创建 .c/.h 文件：  
-右键要创建文件的文件夹，在 New 目录下点击 File for Template，随后在 File name 栏输入文件名称（不要忘记加 .c/.h），点击Finish，即自动创建成功.创建成功后的 .c 文件包含文件创建信息，.h 文件包含文件创建信息以及头文件定义。
+右键要创建文件的文件夹，在 New 目录下点击 File for Template，随后在 File name 栏输入文件名称（不要忘记加 .c/.h），点击Finish，即自动创建成功。创建成功后的 .c 文件包含文件创建信息，.h 文件包含文件创建信息以及头文件定义。  
+如果创建文件的文件夹不是 Core 下的 Inc / Src，还需要对文件的编译进行包含：右键项目工程 -> 点击 Properties -> 展开窗口下的 C/C++ General -> 点击 Paths and Symbols。在 Includes 栏目下依次点击 Add -> Workspace，找到你要加入编译的 Inc（.h） 头文件夹，一路OK；在 Source location 栏目下点击 Add Folder，找到你要加入编译的 Source（.c） 函数时间文件夹，OK。随后点击 Apply and Close，即可成功通过编译。
 
 <br>
 <br>
